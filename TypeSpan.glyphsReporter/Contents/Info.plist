@@ -13,16 +13,16 @@
         <key>CFBundleName</key>
         <string>TypeSpan</string>
         <key>CFBundleShortVersionString</key>
-        <string>1.0.2</string>
+        <string>1.0.3</string>
         <key>CFBundleVersion</key>
-        <string>1.0.2</string>
+        <string>1.0.3</string>
         <key>UpdateFeedURL</key>
         <string>
             https://raw.githubusercontent.com/TypeSpan/TypeSpan-Glyphs/main/TypeSpan.glyphsReporter/Contents/Info.plist</string>
         <key>productPageURL</key>
         <string>https://github.com/TypeSpan/TypeSpan-Glyphs</string>
         <key>productReleaseNotes</key>
-        <string>Fixed: SSL certificate verification on macOS Tahoe</string>
+        <string>Fixed: Cross-platform compatibility for macOS 10.15+ and various browser environments</string>
         <key>NSHumanReadableCopyright</key>
         <string>Copyright, TypeSpan, 2026</string>
         <key>NSPrincipalClass</key>

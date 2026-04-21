@@ -1,117 +1,117 @@
 # encoding: utf-8
 import objc
 from GlyphsApp.plugins import *
-from c0618b96572807b9f import *
+from cf5e2228563da9044 import *
 
 class TypeSpan(ReporterPlugin):
     @objc.python_method
     def settings(self):
         self.menuName = t("plugin.menu_name")
-        if not _f6b67de():
+        if not _f3d6b90():
             return
-        _fe2ee48()
+        _f54baf6()
         self._record_times = {}
-        self._v559d1e = {}
+        self._v27ccfa = {}
         self._prune_frame = 0
-        self._f689fa2()
-        self._f6219ab()
+        self._fc4b69b()
+        self._fc2f8ec()
 
     @objc.python_method
     def start(self):
-        _f9b5616()
+        _fb419e2()
 
     @objc.python_method
-    def _f689fa2(self):
-        _f9f9328(self)
+    def _fc4b69b(self):
+        _f758b52(self)
 
     @objc.python_method
-    def _f6219ab(self):
-        _f9e82f5(self)
+    def _fc2f8ec(self):
+        _fbe85c6(self)
 
-    def _se9772a_(self, sender):
-        _f5c1566(sender, self)
+    def _sc644df_(self, sender):
+        _f6e1494(sender, self)
 
-    def _s2a13d5_(self, sender):
-        _f265dcc(sender)
+    def _s5abd4b_(self, sender):
+        _f608c9e(sender)
 
     @objc.python_method
     def conditionalContextMenus(self):
-        dot_indicator = _f9ea8e7(__file__)
-        menu_items = _fb471bf(self, dot_indicator)
-        return _f18c907(menu_items, self, t("window.menu_item"))
+        dot_indicator = _f4810c0(__file__)
+        menu_items = _fe4fbb2(self, dot_indicator)
+        return _fe3d9bf(menu_items, self, t("window.menu_item"))
 
-    def _s4f75ec_(self, sender):
-        _fb50531(self)
+    def _sdaf60b_(self, sender):
+        _f5b682a(self)
 
-    def _s269054_(self, sender):
-        _f945f15(self)
+    def _s8ae60a_(self, sender):
+        _fecaf5f(self)
 
-    def _s95cea2_(self, sender):
-        _fad660b(self)
+    def _s52a7ac_(self, sender):
+        _f6c0668(self)
 
-    def _s1f312c_(self, sender):
-        _f660e9e(self)
+    def _s6eb4cd_(self, sender):
+        _fe2b4ee(self)
 
-    def _sa2c022_(self, sender):
-        _f47a398(self)
+    def _s7adc2c_(self, sender):
+        _fb5109d(self)
 
-    def _sea510c_(self, sender):
-        _f5b39bf(self)
+    def _s7db1a1_(self, sender):
+        _faa6a10(self)
 
-    def _sc97e33_(self, sender):
-        _fd2813a(self)
+    def _sc68d7a_(self, sender):
+        _fb10faa(self)
 
-    def _s548d28_(self, sender):
-        _fe8558b(self)
+    def _sec2db2_(self, sender):
+        _f277276(self)
 
-    def _sa8b7d0_(self, sender):
-        _f02ca74(self)
+    def _s67d7c3_(self, sender):
+        _f897f4a(self)
 
-    def _s27b177_(self, sender):
-        _fa81259(self)
+    def _sde3b1f_(self, sender):
+        _fd4b03f(self)
 
-    def _seda449_(self, sender):
-        _f671162(self)
+    def _s896c6d_(self, sender):
+        _f637e94(self)
 
-    def _s0aea79_(self, sender):
-        _f419857(self)
+    def _s6d8d2a_(self, sender):
+        _f731105(self)
 
-    def _sca5032_(self, sender):
-        _f749d82(self)
+    def _s0a8247_(self, sender):
+        _fa023d3(self)
 
-    def _seda4e6_(self, sender):
-        _f060b91(self)
+    def _s24a18c_(self, sender):
+        _f87f618(self)
 
-    def _sc9d09f_(self, sender):
-        _f6b2709(self)
+    def _s04c578_(self, sender):
+        _f1d94db(self)
 
-    def _s1f95a9_(self, sender):
-        _fe0e746(self)
+    def _seeb0b6_(self, sender):
+        _f2a5661(self)
 
-    def _scf4b08_(self, sender):
-        _f6856a6(self)
+    def _scf8be8_(self, sender):
+        _f5313c6(self)
 
-    def _s94d3a2_(self, sender):
-        _fa54fe2(self)
+    def _s4f7389_(self, sender):
+        _fcdce3a(self)
 
-    def _s1fa2dd_(self, sender):
-        _f211614(self)
-
-    @objc.python_method
-    def _fbce15a(self, key):
-        if key not in self._v559d1e:
-            self._v559d1e[key] = _fbce15a(key)
-        return self._v559d1e[key]
+    def _sd7940a_(self, sender):
+        _f9ed69b(self)
 
     @objc.python_method
-    def _f9807cd(self, key, value):
-        _f9807cd(key, value)
-        self._v559d1e[key] = value
+    def _f7fba53(self, key):
+        if key not in self._v27ccfa:
+            self._v27ccfa[key] = _f7fba53(key)
+        return self._v27ccfa[key]
+
+    @objc.python_method
+    def _f92f8f4(self, key, value):
+        _f92f8f4(key, value)
+        self._v27ccfa[key] = value
 
     @objc.python_method
     def foregroundInViewCoords(self):
-        _fe2d0e2(self, self._record_times)
-        _fe28316(self, Glyphs.fonts)
+        _ffc099b(self, self._record_times)
+        _f0800d2(self, Glyphs.fonts)
 
     @objc.python_method
     def __file__(self):

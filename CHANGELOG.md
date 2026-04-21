@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.3] - 2026-04-22
+
+Fixed cross-platform compatibility for macOS 10.15+ and various browser environments.
+
 ## [1.0.2] - 2026-04-21
 
 Fixed: SSL certificate verification on macOS Tahoe
