@@ -1,8 +1,12 @@
 # Changelog
 
+## [1.0.4] - 2026-04-23
+
+Fixed: Improved token authentication system for report access and sharing.
+
 ## [1.0.3] - 2026-04-22
 
-Fixed cross-platform compatibility for macOS 10.15+ and various browser environments.
+Fixed: Cross-platform compatibility for macOS 10.15+ and various browser environments.
 
 ## [1.0.2] - 2026-04-21
 
