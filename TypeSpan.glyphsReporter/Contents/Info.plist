@@ -13,9 +13,9 @@
         <key>CFBundleName</key>
         <string>TypeSpan</string>
         <key>CFBundleShortVersionString</key>
-        <string>1.0.4</string>
+        <string>1.0.5</string>
         <key>CFBundleVersion</key>
-        <string>1.0.4</string>
+        <string>1.0.5</string>
         <key>UpdateFeedURL</key>
         <string>
             https://raw.githubusercontent.com/TypeSpan/TypeSpan-Glyphs/main/TypeSpan.glyphsReporter/Contents/Info.plist</string>

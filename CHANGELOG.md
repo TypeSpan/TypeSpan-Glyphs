@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.5] - 2026-04-26
+
+Updated: UI text improvements.
+
 ## [1.0.4] - 2026-04-23
 
 Fixed: Improved token authentication system for report access and sharing.
