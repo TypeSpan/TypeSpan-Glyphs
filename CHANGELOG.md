@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.2.0] - 2026-08-01
+
+Added: Support for Glyphs 4. The plugin previously refused to load on any version other than Glyphs 3, so its menu items never appeared. Glyphs 3 remains supported.
+
 ## [1.1.1 / 1.1.2] - 2026-05-01
 
 Fixed: Bug fixes.
