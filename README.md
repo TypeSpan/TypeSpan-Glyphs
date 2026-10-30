@@ -10,7 +10,7 @@ Time tracking and local reports for [Glyphs 3 and 4](https://glyphsapp.com/).
 
 </div>
 
-TypeSpan records the time you spend on each glyph and master. Its report opens in your browser from a server on your own Mac. You can view it offline while Glyphs is running. Reports are not uploaded to TypeSpan.
+TypeSpan records the time you spend on each glyph and master. Its report opens in your browser from a server on your Mac. A device on the same local network can also open the full report link while Glyphs is running. Keep that link private. Reports are not uploaded to TypeSpan.
 
 ## Install
 

@@ -13,16 +13,16 @@
         <key>CFBundleName</key>
         <string>TypeSpan</string>
         <key>CFBundleShortVersionString</key>
-        <string>2.0.0</string>
+        <string>2.0.1</string>
         <key>CFBundleVersion</key>
-        <string>2.0.0</string>
+        <string>2.0.1</string>
         <key>UpdateFeedURL</key>
         <string>
             https://raw.githubusercontent.com/TypeSpan/TypeSpan-Glyphs/main/TypeSpan.glyphsReporter/Contents/Info.plist</string>
         <key>productPageURL</key>
         <string>https://github.com/TypeSpan/TypeSpan-Glyphs</string>
         <key>productReleaseNotes</key>
-        <string>Added optional External storage for tracking records. Time stays in a local JSON log, while the font stores one stable log ID to reduce Git changes. Existing fonts can migrate with a backup and confirmation.</string>
+        <string>Local reports can now be opened on a phone or another device on the same network using the full report link.</string>
         <key>NSHumanReadableCopyright</key>
         <string>Copyright, TypeSpan, 2026</string>
         <key>NSPrincipalClass</key>

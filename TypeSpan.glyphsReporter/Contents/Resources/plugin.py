@@ -1,118 +1,118 @@
 # encoding: utf-8
 import objc
 from GlyphsApp.plugins import *
-from c2153a8d6c64e0098 import *
+from ce29ac5e2c8a0c2c5 import *
 
 class TypeSpan(ReporterPlugin):
     @objc.python_method
     def settings(self):
         self.menuName = t("plugin.menu_name")
-        self._version_ok = _fed2075()
+        self._version_ok = _fe28199()
         if not self._version_ok:
             return
-        _f0de59b()
+        _f7b15cb()
         self._record_times = {}
         self._prune_frame = 0
-        self._f263693()
-        self._fa56b6f()
+        self._f8ccb94()
+        self._fb11df8()
 
     @objc.python_method
     def start(self):
         if not getattr(self, '_version_ok', False):
             return
-        _f9dad0a()
-        _f02cbbb(lambda timer: _f496780())
-        _f3adbfe()
-        _fefb91b()
+        _f783fdf()
+        _f83100a(lambda timer: _f400574())
+        _f93b5a6()
+        _f7cb069()
 
     @objc.python_method
-    def _f263693(self):
-        _f0335a4(self)
+    def _f8ccb94(self):
+        _fc81ac2(self)
 
     @objc.python_method
-    def _fa56b6f(self):
-        _f90b5f5(self)
+    def _fb11df8(self):
+        _f56a379(self)
 
-    def _s6b9b07_(self, sender):
-        _f1940f6(sender, self)
+    def _s6aff5a_(self, sender):
+        _fe315cf(sender, self)
 
-    def _s36a055_(self, sender):
-        _f93b41f(sender)
+    def _s6f1ae8_(self, sender):
+        _f343387(sender)
 
     @objc.python_method
     def conditionalContextMenus(self):
-        menu_items = _f6d3d03(self)
-        return _f962094(menu_items, self, t("plugin.menu.preferences"))
+        menu_items = _f0849fa(self)
+        return _f1ef2e6(menu_items, self, t("plugin.menu.preferences"))
 
-    def _s63b787_(self, sender):
-        _f160c38(self, 'file_display', 'hide')
+    def _s4afccd_(self, sender):
+        _f65e551(self, 'file_display', 'hide')
 
-    def _s58989e_(self, sender):
-        _f160c38(self, 'file_display', 'today')
+    def _s12ccd2_(self, sender):
+        _f65e551(self, 'file_display', 'today')
 
-    def _sc7d9d0_(self, sender):
-        _f160c38(self, 'file_display', 'all')
+    def _s2cb5a9_(self, sender):
+        _f65e551(self, 'file_display', 'all')
 
-    def _se38bd1_(self, sender):
-        _f160c38(self, 'master_display', 'today')
+    def _s188ba1_(self, sender):
+        _f65e551(self, 'master_display', 'today')
 
-    def _se2fef0_(self, sender):
-        _f160c38(self, 'master_display', 'all')
+    def _s3e7122_(self, sender):
+        _f65e551(self, 'master_display', 'all')
 
-    def _s6a4d59_(self, sender):
-        _f160c38(self, 'master_display', 'hide')
+    def _sfaf53e_(self, sender):
+        _f65e551(self, 'master_display', 'hide')
 
-    def _s2bc7c6_(self, sender):
-        _f160c38(self, 'glyph_display', 'this_master_today')
+    def _sc68f83_(self, sender):
+        _f65e551(self, 'glyph_display', 'this_master_today')
 
-    def _s96ea24_(self, sender):
-        _f160c38(self, 'glyph_display', 'this_master_all_time')
+    def _sf590b3_(self, sender):
+        _f65e551(self, 'glyph_display', 'this_master_all_time')
 
-    def _s1ac89f_(self, sender):
-        _f160c38(self, 'glyph_display', 'all_masters_today')
+    def _s1a174c_(self, sender):
+        _f65e551(self, 'glyph_display', 'all_masters_today')
 
-    def _sa601f7_(self, sender):
-        _f160c38(self, 'glyph_display', 'all_masters_all_time')
+    def _sf65c77_(self, sender):
+        _f65e551(self, 'glyph_display', 'all_masters_all_time')
 
-    def _s7e2610_(self, sender):
-        _f160c38(self, 'glyph_display', 'hide')
+    def _sc386a6_(self, sender):
+        _f65e551(self, 'glyph_display', 'hide')
 
-    def _s208a8f_(self, sender):
-        _f160c38(self, 'position', 'upperLeft')
+    def _s0e7520_(self, sender):
+        _f65e551(self, 'position', 'upperLeft')
 
-    def _se94029_(self, sender):
-        _f160c38(self, 'position', 'upperCenter')
+    def _s1cf188_(self, sender):
+        _f65e551(self, 'position', 'upperCenter')
 
-    def _s4e4e95_(self, sender):
-        _f160c38(self, 'position', 'upperRight')
+    def _s5ef62e_(self, sender):
+        _f65e551(self, 'position', 'upperRight')
 
-    def _s03ca97_(self, sender):
-        _f160c38(self, 'position', 'lowerLeft')
+    def _sd3f720_(self, sender):
+        _f65e551(self, 'position', 'lowerLeft')
 
-    def _s924ded_(self, sender):
-        _f160c38(self, 'position', 'lowerRight')
+    def _s45fcd7_(self, sender):
+        _f65e551(self, 'position', 'lowerRight')
 
-    def _s7d0b40_(self, sender):
-        _f160c38(self, 'position', 'hide_all')
+    def _s3e81b3_(self, sender):
+        _f65e551(self, 'position', 'hide_all')
 
-    def _s484256_(self, sender):
-        _fb502a2(self)
+    def _s6ccfb8_(self, sender):
+        _fa77049(self)
 
-    def _s422fba_(self, sender):
-        _f8cd760(self)
-
-    @objc.python_method
-    def _f489081(self, key):
-        return _f489081(key)
+    def _se3b95c_(self, sender):
+        _ffcae55(self)
 
     @objc.python_method
-    def _f1e4128(self, key, value):
-        _f1e4128(key, value)
+    def _fab4f3b(self, key):
+        return _fab4f3b(key)
+
+    @objc.python_method
+    def _f1ded59(self, key, value):
+        _f1ded59(key, value)
 
     @objc.python_method
     def foregroundInViewCoords(self):
-        _f054101(self, self._record_times)
-        _f305b72(self, Glyphs.fonts)
+        _f673810(self, self._record_times)
+        _fb22a47(self, Glyphs.fonts)
 
     @objc.python_method
     def __file__(self):

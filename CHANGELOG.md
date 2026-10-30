@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.0.1] - 2026-10-30
+
+View local reports on other devices on the same network.
+
 ## [2.0.0] - 2026-10-30
 
 Added optional External storage. Detailed time records can stay in a private JSON log on your Mac, while the Glyphs file keeps one stable ID. Existing fonts remain on Legacy storage until you choose to migrate. Migration asks for confirmation and creates backups.
