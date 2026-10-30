@@ -13,16 +13,16 @@
         <key>CFBundleName</key>
         <string>TypeSpan</string>
         <key>CFBundleShortVersionString</key>
-        <string>2.0.1</string>
+        <string>2.0.2</string>
         <key>CFBundleVersion</key>
-        <string>2.0.1</string>
+        <string>2.0.2</string>
         <key>UpdateFeedURL</key>
         <string>
             https://raw.githubusercontent.com/TypeSpan/TypeSpan-Glyphs/main/TypeSpan.glyphsReporter/Contents/Info.plist</string>
         <key>productPageURL</key>
         <string>https://github.com/TypeSpan/TypeSpan-Glyphs</string>
         <key>productReleaseNotes</key>
-        <string>Local reports can now be opened on a phone or another device on the same network using the full report link.</string>
+        <string>New fonts use External storage by default. Existing fonts with TypeSpan data keep using Legacy storage.</string>
         <key>NSHumanReadableCopyright</key>
         <string>Copyright, TypeSpan, 2026</string>
         <key>NSPrincipalClass</key>

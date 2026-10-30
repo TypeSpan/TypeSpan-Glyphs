@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.0.2] - 2026-10-30
+
+New fonts use External storage by default. Fonts with existing TypeSpan data keep using Legacy storage.
+
 ## [2.0.1] - 2026-10-30
 
 View local reports on other devices on the same network.
